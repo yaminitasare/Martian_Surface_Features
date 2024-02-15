@@ -1,0 +1,7 @@
+write the below given line of codes in your notebook to download the dataset
+
+!pip install kaggle
+!mkdir ~/.kaggle
+!cp kaggle.json ~/.kaggle/
+!chmod 600 ~/.kaggle/kaggle.json
+!kaggle datasets download -d brsdincer/hirise-map-mars-nasa-image
